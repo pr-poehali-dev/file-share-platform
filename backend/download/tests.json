@@ -1,0 +1,16 @@
+{
+  "tests": [
+    {
+      "name": "Test missing file ID",
+      "method": "GET",
+      "path": "/",
+      "expectedStatus": 400
+    },
+    {
+      "name": "Test OPTIONS request",
+      "method": "OPTIONS",
+      "path": "/",
+      "expectedStatus": 200
+    }
+  ]
+}
